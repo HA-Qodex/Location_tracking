@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Searching your location..."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Location in map"
+        android:background="@color/primary"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
